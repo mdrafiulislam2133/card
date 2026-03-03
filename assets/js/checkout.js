@@ -4,7 +4,6 @@ const totalEl = document.getElementById("total");
 const errorMsg = document.getElementById("errorMsg");
 
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
-let shipping = 10;
 let subtotal = 0;
 
 function loadOrder() {

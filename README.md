@@ -44,10 +44,9 @@ The project follows professional folder structure, responsive design standards, 
 <pre>
 Card/
 ├── index.html
-├── assets/
-├── js/
-│   ├── checkout.js
-│   └── script.js
+├── assets/js
+│         ├── checkout.js
+│         └── script.js
 └── README.md
 </pre>
 

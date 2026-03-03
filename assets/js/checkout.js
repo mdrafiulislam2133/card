@@ -5,6 +5,7 @@ const errorMsg = document.getElementById("errorMsg");
 
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 let subtotal = 0;
+let shipping = 10;
 
 function loadOrder() {
 orderItems.innerHTML = "";

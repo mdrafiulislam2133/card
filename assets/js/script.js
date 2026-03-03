@@ -35,7 +35,13 @@ function updateCart() {
   });
 
   cartTotal.innerText = "$" + total;
-  cartCount.innerText = cart.length;
+ let totalQty = 0;
+
+cart.forEach(item => {
+  totalQty += item.quantity;
+});
+
+cartCount.innerText = totalQty;
 
   // SAVE TO LOCAL STORAGE
   localStorage.setItem("cart", JSON.stringify(cart));

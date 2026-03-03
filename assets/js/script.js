@@ -70,7 +70,7 @@ document.getElementById("addToCart").onclick = () => {
     existing.quantity += quantity;
   } else {
     cart.push({
-      name: "GO FlyEase",
+      name: "RK FlyEase",
       price: price,
       quantity: quantity
     });

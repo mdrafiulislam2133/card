@@ -64,7 +64,7 @@ document.getElementById("decrease").onclick = () => {
 document.getElementById("addToCart").onclick = () => {
   
   // Check if product already in cart
-  let existing = cart.find(item => item.name === "GO FlyEase");
+  let existing = cart.find(item => item.name === "RK FlyEase");
 
   if (existing) {
     existing.quantity += quantity;

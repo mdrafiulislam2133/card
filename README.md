@@ -40,19 +40,20 @@ The project follows professional folder structure, responsive design standards, 
 ---
 
 ## 📂 Project Structure
-card/
-|
-|-- index.html
-|
-|-- assets/
-|   |
-|   |-- js/
-|   |   |-- checkout.js
-|   |   |-- script.js
-|   |
-|   |-- images/
-|
-|-- README.md
+portfolio-web/
+│
+├── index.html
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   │
+│   ├── js/
+│   │   └── script.js
+│   │
+│   └── images/
+│
+└── README.md
 
 
 
